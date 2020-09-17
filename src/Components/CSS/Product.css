@@ -3,7 +3,7 @@
   flex-direction: column;
   z-index: 1;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-s;
   margin: 10px;
   padding: 20px;
   width: 100%;
