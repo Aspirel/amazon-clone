@@ -1,12 +1,12 @@
 import React from "react";
-import "./Header.css";
+import "./CSS/Header.css";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import SearchIcon from "@material-ui/icons/Search";
 
 function header() {
   return (
     <div className="header">
-      <img className="header_logo" src="./amazon_logo.png" />
+      <img className="header_logo" src="amazon_logo.png" />
 
       <div className="header_search">
         <input className="header_searchInput" />
