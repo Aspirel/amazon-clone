@@ -17,7 +17,6 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
-  margin-top: 10px;
 }
 
 .product_button {
@@ -35,4 +34,8 @@
 
 .product_price {
   margin-top: 5px;
+}
+
+.product_rating {
+  display: flex;
 }
