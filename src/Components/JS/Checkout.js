@@ -1,7 +1,7 @@
 import React from "react";
-import { useStateValue } from "../DataLayer/StateProvider";
+import { useStateValue } from "../../DataLayer/StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
-import "./CSS/Checkout.css";
+import "../CSS/Checkout.css";
 import Subtotal from "./Subtotal";
 
 function Checkout() {

@@ -1,6 +1,6 @@
 import React from "react";
-import "./CSS/Product.css";
-import { useStateValue } from "../DataLayer/StateProvider";
+import "../CSS/Product.css";
+import { useStateValue } from "../../DataLayer/StateProvider";
 
 function Product({ id, title, image, price, rating }) {
   const [state, dispatch] = useStateValue();
