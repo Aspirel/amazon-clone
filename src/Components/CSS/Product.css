@@ -19,11 +19,11 @@
   margin-bottom: 15px;
 }
 
-.product_button {
-  background: #f0c14b;
-  border: 1px solid;
+.product > button {
+  background: #f5ce00;
+  border-radius: 50px;
+  border: transparent;
   margin-top: 10px;
-  border-color: #a88734 #9c7e31 #846a29;
   color: #111;
 }
 
