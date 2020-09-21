@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useStateValue } from "../../DataLayer/StateProvider";
 
 function Header() {
-  const [{ basket }] = useStateValue();
+  const [{ basket, user }] = useStateValue();
 
   return (
     <div className="header">
@@ -21,8 +21,12 @@ function Header() {
       <div className="header_nav">
         <Link to="/login">
           <div className="header_option">
-            <span className="header_optionL1"> Hello</span>
-            <span className="header_optionL2">Sign in</span>
+            <span className="header_optionL1">
+              {/* {user ? `Hello, ${user}` : `Hello`} FINISH THIS */}
+            </span>
+            <span className="header_optionL2">
+              {user ? "Sign out" : "Sign in"}
+            </span>
           </div>
         </Link>
 
